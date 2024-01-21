@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CalCy+</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./asset/calculator.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;800&family=Nunito+Sans:opsz,wght@6..12,500&family=PT+Sans:wght@400;700&family=Poppins:wght@300;500;700&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+  <body>
+    <div class="container">
+
+      
+      <div class="calc-container">
+        <h3 id="history"></h3>
+        <input type="text" placeholder="0" id="input" disabled/>
+        <div class="button-container">
+          <div class="layer-one">
+            <button class=" clear">AC</button>
+            <button class="btn">/</button>
+            <button class="btn">*</button>
+            <button class="backSpaceBtn"><i class="fa-solid fa-arrow-left"></i></button>
+          </div>
+          <div class="layer-two">
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn">-</button>
+          </div>
+          <div class="layer-three">
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn">+</button>
+          </div>
+          <div class="layer-four">
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="equalBtn">=</button>
+          </div>
+          <div class="layer-five">
+            <button class="btn ">0</button>
+            <button class="btn">.</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
